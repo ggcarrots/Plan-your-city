@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="219dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="60dp"
+            app:srcCompat="@drawable/email_photo"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:background="@drawable/input_text"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName"
+            android:text="First name" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="345dp"
+            android:background="@drawable/input_text"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName"
+            android:text="E-mail" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="345dp"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="345dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:hint="Password" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="345dp"
+            android:background="@drawable/input_text"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="345dp"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="345dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:hint="Password repeat" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="345dp"
+            android:background="@drawable/input_text"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="250dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#08836E"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:text="or Login" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
