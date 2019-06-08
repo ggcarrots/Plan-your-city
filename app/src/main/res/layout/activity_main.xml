@@ -11,19 +11,5 @@
         android:layout_height="match_parent"
         tilesource="Mapnik" />
 
-    <com.google.android.material.navigation.NavigationView
-        android:layout_width="386dp"
-        android:layout_height="18dp"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="320dp"
-        tools:ignore="MissingConstraints" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="22dp"
-        android:layout_height="22dp"
-        tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="701dp"
-        tools:ignore="MissingConstraints" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

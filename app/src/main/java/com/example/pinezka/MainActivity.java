@@ -10,6 +10,8 @@ import org.osmdroid.views.MapView;
 import org.osmdroid.views.overlay.Marker;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
@@ -65,6 +67,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void onResume(){
         super.onResume();
+        SharedPreferences userDetails = getSharedPreferences("userdetails", MODE_PRIVATE);
+
+        SharedPreferences.Editor edit = userDetails.edit();
+
+       if(userDetails.getString("username", "").equals("")) {
+           Intent loginIntent = new Intent(this, LoginActivity.class);
+           startActivity(loginIntent);
+       }
         //this will refresh the osmdroid configuration on resuming.
         //if you make changes to the configuration, use
         //SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
