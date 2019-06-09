@@ -6,71 +6,79 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".MainActivity">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="0dp">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="401dp"
-        android:layout_height="410dp"
-        app:srcCompat="@drawable/logo"
-        tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="312dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            app:srcCompat="@drawable/new_logo" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="328dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/input_text"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:layout_gravity="center"
-        android:text="Name"
-        tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:layout_marginBottom="20dp"
+            tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/input_text"
-        android:ems="10"
-        android:layout_gravity="center"
-        android:inputType="textPassword"
-        android:text="Password"
-        tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="Password"
+            android:layout_marginBottom="20dp"
+            tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="login"
-        android:backgroundTint="@color/colorPrimaryDark"
-        android:text="Login"
-        android:textColor="#FFFFFF"
-        tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:onClick="login"
+            android:text="Login"
+            android:layout_marginBottom="20dp"
+            android:textColor="#FFFFFF"
+            tools:ignore="OnClick" />
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:drawableTint="#08836E"
-        android:ems="10"
-        android:background="#FFFFFF"
-        android:inputType="textPersonName"
-        android:text="or Register"
-        android:textAlignment="center"
-        android:textColor="#08836E"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:drawableTint="#08836E"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="or Register"
+            android:textAlignment="center"
+            android:textColor="#08836E"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
 
-</LinearLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
