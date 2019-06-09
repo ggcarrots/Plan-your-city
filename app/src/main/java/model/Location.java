@@ -2,7 +2,7 @@ package model;
 
 import java.math.BigDecimal;
 
-class Location {
+public class Location {
 
     private BigDecimal latitude;
     private BigDecimal longitude;

@@ -4,7 +4,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-class User {
+public class User {
 
     private String email;
     private String password;

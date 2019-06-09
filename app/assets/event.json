@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "name": "Piknik",
+      "decription": "Piknik w lesie"
+    },
+    {
+     "name": "Piknik",
+     "description": "Piknik w lesie",
+     "location": {
+       "latitude": 52.234815,
+       "longitude": 21.009216
+     },
+     "address": "ul. Zawiszy 29",
+     "needs": [],
+     "people":[],
+     "start": "2019-03-12",
+     "end": "2019-03-12",
+     "eventStatus": "ACTIVE",
+     "eventCategory": "MEETING"
+  }
+  ]
+}

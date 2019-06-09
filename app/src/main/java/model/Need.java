@@ -1,6 +1,6 @@
 package model;
 
-class Need {
+public class Need {
 
     private String name;
     private int number;

@@ -1,6 +1,6 @@
 package model;
 
-enum EventCategory {
+public enum EventCategory {
 
     EDUCATION, MEETING, TRAINING,
 }

@@ -1,6 +1,6 @@
 package model;
 
-enum EventStatus {
+public enum EventStatus {
 
     ACTIVE, FINISHED
 }
